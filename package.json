@@ -1,0 +1,35 @@
+{
+  "name": "rarecaret-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register -t 20000",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkol36/rarecaret-parser.git"
+  },
+  "keywords": [
+    "rarecaret-parser"
+  ],
+  "author": "Jon Kolman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkol36/rarecaret-parser/issues"
+  },
+  "homepage": "https://github.com/jkol36/rarecaret-parser#readme",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "bluebird": "^3.4.7",
+    "csv2json": "^1.3.0",
+    "dotenv": "^4.0.0",
+    "json2csv": "^3.7.3",
+    "mongoose": "^4.8.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  }
+}
